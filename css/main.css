@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxs;
+}
+.play{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    border: 2px solid black;
+    margin: 50px auto;
+    padding: 2%;
+    margin-left: -250px;
+    background-color: aliceblue;
+}
+svg{
+    cursor: pointer;
+    width: 30px;
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid;
+    width: 350px;
+    background-color: blue;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-left: 90px;
+    font-weight: 500;
+    color: #fff;
+}
+
+@media only screen and (max-width:400px){
+
+    .conteiner{
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+    }
+}
